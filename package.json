@@ -5,13 +5,13 @@
   "types": "./lib/main.d.ts",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/zen-browser/plugin.git"
+    "url": "git+https://github.com/enso-browser/plugin.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/zen-browser/plugin/issues"
+    "url": "https://github.com/enso-browser/plugin/issues"
   },
-  "homepage": "https://github.com/zen-browser/plugin#readme"
+  "homepage": "https://github.com/enso-browser/plugin#readme"
 }
