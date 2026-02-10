@@ -1,5 +1,5 @@
 
-export interface IZenPlugin {
+export interface IEnsoPlugin {
   name: string;
   version: string;
   description: string;
@@ -69,22 +69,22 @@ export type IPluginContextMenu = {
 };
 
 export type IPluginSettings = IPluginSetting[];
-export default IZenPlugin;
+export default IEnsoPlugin;
 
 // API
 
-export interface IZenAPI {
+export interface IEnsoAPI {
   getTabs(): ISandboxedTab[];
   getWorkspaces(): IWorkspace[];
 
   getSetting(name: string): any;
   setSetting(name: string, value: any): void;
 
-  set plugin(plugin: IZenPlugin);
+  set plugin(plugin: IEnsoPlugin);
 }
 
 declare global {
   interface Window {
-    plugins: IZenAPI;
+    plugins: IEnsoAPI;
   }
 }
